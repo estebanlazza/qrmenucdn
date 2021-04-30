@@ -17,11 +17,11 @@ function getTemplate(url) {
     return `<a id="QRMenuMainButton" href="javascript:toggleQRMenu()">
         <img style="width: 50px; height: 50px; position: absolute; right: 30px; bottom: 80px; z-index: 99999" id="QRMenuBtnImage" alt="">
     </a>
-    <div id="QRMenuFrame" style="position: absolute;right: 100px; top: calc((100vh - 500px)/2);z-index: 99; display: none">
+    <div id="QRMenuFrame" style="position: absolute;right: 100px; top: calc((100vh - 580px)/2);z-index: 99; display: none">
     <iframe id="inlineFrameExample" style="border: 2px solid black;"
             title="QR MENU"
-            width="250"
-            height="500"
+            width="290"
+            height="580"
             src="${url}">
     </iframe>
     </div>`;
