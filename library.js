@@ -10,7 +10,7 @@ function toggleQRMenu(url) {
     var isMobile = isMobileCheck();
 
     if(isMobile){
-        window.location.href = url
+        window.location.href = QRMENUURL
     }else{
         if(frame){
 
